@@ -1,0 +1,87 @@
+body {
+	background-image: url("images/background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: 0 0;
+	text-align: center;
+	color: white;
+	text-shadow: 2px 2px 4px black;
+}
+p, h2, h1 {
+    font-family: "Source Sans Pro Semibold", Source, serif;
+    font-size: 22px;
+    line-height: 25px;
+}
+
+h1 {
+	font-size: 32px !important;
+}
+img.image-square{
+	height: 120px;
+	width: 120px;
+}
+
+div.Informatie-over-mijzelf{
+	width: 800px;
+    margin: 0 auto;
+    border: solid 1px;
+    background-color: rgba(25,25,25,0.7);
+    border-radius: 20px;
+}
+
+div.hobby-div{
+	float: left;
+	width: 40%;
+	text-align: left;
+	margin-left: 10%;
+}
+
+div.vaardigheden-div{
+	float: right;
+	width: 40%;
+	text-align: right;
+	margin-right: 10%;
+}
+
+div.links-div{
+	clear: both;
+	text-align: center;
+	line-height: 10px;
+}
+
+div.mijzelf-div{
+	clear: both;
+	text-align: center;
+}
+
+.table-left{
+	text-align: left;
+	padding-left: 5%;
+	font-family: "Source Sans Pro Semibold", Source, serif;
+    font-size: 22px;
+}
+
+.table-right {
+	text-align: right;
+	padding-right: 5%;
+	font-family: "Source Sans Pro Semibold", Source, serif;
+    font-size: 22px;
+}
+.table-left-header{
+	text-align: left;
+	padding-left: 5%;
+	font-family: "Source Sans Pro Semibold", Source, serif;
+    font-size: 32px !important;
+}
+
+.table-right-header {
+	text-align: right;
+	padding-right: 5%;
+	font-family: "Source Sans Pro Semibold", Source, serif;
+    font-size: 32px !important;
+}
+
+a {
+	color: white;
+}
